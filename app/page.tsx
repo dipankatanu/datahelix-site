@@ -228,7 +228,7 @@ export default function Home() {
       <div class="eyebrow">§ 07 / contact</div>
       <h2 class="section-title" style="margin-bottom:8px;">Request a first consultation</h2>
       <p>Include the biological question, the data available or planned, and your deadline.</p>
-      <a class="contact-email" href="mailto:dipankatanusarmah@gmail.com">dipankatanusarmah@gmail.com</a>
+      <a class="contact-email" href="mailto:compsysbiosol@gmail.com">compsysbiosol@gmail.com</a>
     </div>
     <div class="contact-meta">
       <div class="fact"><div class="k">response time</div><div class="v">Within 2 business days</div></div>
