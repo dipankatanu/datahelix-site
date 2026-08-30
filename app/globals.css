@@ -34,12 +34,14 @@
   .wide{max-width:960px; margin:0 auto; padding:0 30px;}
   .mono{font-family:'IBM Plex Mono', monospace;}
 
-  header{position:sticky; top:0; z-index:30; background:var(--paper); border-bottom:1px solid var(--rule);}
-  .nav{max-width:960px; margin:0 auto; padding:16px 30px; display:flex; justify-content:space-between; align-items:baseline; font-size:13px;}
-  .nav .name{font-family:'Newsreader', serif; font-size:17px; font-weight:500; letter-spacing:0;}
-  .nav ul{list-style:none; display:flex; gap:22px; margin:0; padding:0;}
-  .nav a{text-decoration:none; color:var(--ink-soft);}
-  .nav a:hover{color:var(--sienna);}
+  header{position:sticky; top:0; z-index:30; background:var(--paper); border-bottom:1px solid var(--rule); box-shadow:0 1px 0 var(--paper-2);}
+  .nav{max-width:960px; margin:0 auto; padding:18px 30px; display:flex; justify-content:space-between; align-items:center; font-size:13px;}
+  .brand{display:flex; align-items:center; gap:10px; text-decoration:none; color:var(--ink);}
+  .logo{width:23px; height:23px; flex-shrink:0;}
+  .nav .name{font-family:'Newsreader', serif; font-size:18px; font-weight:500; letter-spacing:0; font-style:italic;}
+  .nav ul{list-style:none; display:flex; gap:26px; margin:0; padding:0;}
+  .nav a{text-decoration:none; color:var(--ink-soft); padding-bottom:3px; border-bottom:1px solid transparent;}
+  .nav a:hover{color:var(--sienna); border-bottom:1px dashed var(--sienna);}
 
   /* Hero */
   .hero{padding:64px 0 10px;}

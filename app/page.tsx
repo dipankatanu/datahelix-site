@@ -5,7 +5,16 @@ export default function Home() {
       dangerouslySetInnerHTML={{
         __html: `<header>
   <nav class="nav">
-    <span class="name">DataHelix</span>
+    <a href="#" class="brand" aria-label="DataHelix, home">
+      <svg class="logo" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M7,3 C7,10 25,10 25,16 C25,22 7,22 7,29" fill="none" stroke="#1B2A3A" stroke-width="1.7"/>
+        <path d="M25,3 C25,10 7,10 7,16 C7,22 25,22 25,29" fill="none" stroke="#1B2A3A" stroke-width="1.7" opacity="0.3"/>
+        <circle cx="7" cy="3" r="2.3" fill="#C1613C"/>
+        <circle cx="25" cy="16" r="2.3" fill="#6B8F71"/>
+        <circle cx="7" cy="29" r="2.3" fill="#1B2A3A"/>
+      </svg>
+      <span class="name">DataHelix</span>
+    </a>
     <ul>
       <li><a href="#capabilities">Capabilities</a></li>
       <li><a href="#algorithms">Algorithms</a></li>
@@ -228,7 +237,7 @@ export default function Home() {
       <div class="eyebrow">§ 07 / contact</div>
       <h2 class="section-title" style="margin-bottom:8px;">Request a first consultation</h2>
       <p>Include the biological question, the data available or planned, and your deadline.</p>
-      <a class="contact-email" href="mailto:compsysbiosol@gmail.com">compsysbiosol@gmail.com</a>
+      <a class="contact-email" href="mailto:dipankatanusarmah@gmail.com">dipankatanusarmah@gmail.com</a>
     </div>
     <div class="contact-meta">
       <div class="fact"><div class="k">response time</div><div class="v">Within 2 business days</div></div>
